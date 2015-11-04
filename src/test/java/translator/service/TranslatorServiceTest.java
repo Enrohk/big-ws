@@ -21,7 +21,7 @@ public class TranslatorServiceTest {
     @Test
     public void translateTest() throws Exception {
         TranslatedText translatedText = translatorService.translate("en", "es", "I have the power to make my evil take its course");
-        assertEquals("Yo tengo el poder de hacer que mi mal siga su curso",translatedText.getTranslation());
+        assertEquals("Tengo el poder de hacer que mi mal siga su curso",translatedText.getTranslation());
     }
 
 }
